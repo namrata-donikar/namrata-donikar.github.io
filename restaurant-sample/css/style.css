@@ -1,0 +1,48 @@
+
+.navbar  {
+  background-color:#1ac9ec;
+
+}
+.navbar h1{
+  margin-top: 5px;
+  color: crimson;
+  font-family:  "alex-brush";
+}
+
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #f4511e;
+}
+
+.carousel-inner img {
+  width: 100%;
+  margin: auto;
+  min-height:100px;
+  max-height:500px;
+}
+.jumbo { text-align: center;
+  color: crimson;
+  font-style: italic;
+  text-decoration-style: solid;
+
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+.header {
+  position: relative;
+  background: #ffffff;
+  overflow: hidden;
+
+}
+body{
+  position: relative;
+  background-image: url("../img/background.jpg");
+}
+#menu {padding-top: 50px;height: 500px;}
+#address{padding-top: 50px;height: 500px;}
+#review{padding-top: 50px;height: 500px;}
